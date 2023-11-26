@@ -1,0 +1,86 @@
+#root {
+  max-height: 2000px;
+}
+.Wrapper {
+  width: 100%;
+  padding-bottom: -500px;
+}
+.sideBarItem {
+  border-bottom: #fff solid 1px;
+  padding: 4px 0px;
+}
+.SideBar {
+  position: fixed;
+  height: 1000px;
+  width: 280px;
+}
+.sideBarItem:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.sideBarItem button {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  transition: 0.5s;
+}
+.navText {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  transition: 0.5s;
+  text-align: start;
+}
+#Content {
+  margin-left: 200px;
+  padding: 20px;
+  transition: 0.5s;
+  width: 100%;
+}
+#Content label {
+  position: relative;
+  text-align: start;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+#Content input {
+  position: absolute;
+  padding: 4px;
+  border-radius: 4px;
+  border: solid black 1px;
+  width: 40%;
+  right: 200px;
+}
+
+#Content button {
+  padding: 4px;
+  border-radius: 4px;
+  border: solid black 1px;
+  width: 140px;
+  right: 200px;
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+#Content button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+.welcomeText {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s;
+  text-align: center;
+  margin-top: 200px;
+}
